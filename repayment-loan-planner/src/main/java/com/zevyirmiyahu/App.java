@@ -32,7 +32,7 @@ public class App {
 	 *  
 	 */
 	
-	private static int duration = 2; 					// number of installments (user gives in year formula uses months)
+	private static int duration = 2; 			// number of installments (user gives in year formula uses months)
 	private static double nominalInterestRate = 5.0; 	// user gives as percentage 
 	private static double totalLoanAmount = 5000.0; 	// total principle amount
 	private static String dateOfPayout = "01.01.2018"; 	// as string
