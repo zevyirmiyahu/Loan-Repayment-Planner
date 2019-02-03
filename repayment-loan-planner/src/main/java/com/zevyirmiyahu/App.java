@@ -9,20 +9,20 @@ public class App {
 	 * pre-calculating repayment plans for borrowers throughout 
 	 * the lifetime of an annuity loan. It is assumed the user provides 
 	 * the following input parameters:
-	 * 									duration(number of installments in months)
-	 * 									nominal interest rate (as a percentage NOT a decimal)
-	 * 									total loan amount("total principle amount")
-	 * 									date of disbursement/payout
+	 * 				duration(number of installments in months)
+	 * 				nominal interest rate (as a percentage NOT a decimal)
+	 * 				total loan amount("total principle amount")
+	 * 				date of disbursement/payout
 	 * 
 	 * It is further assumed for simplicity:
-	 * 									each month has 30 days
-	 *  								each year has 360 days
+	 * 				each month has 30 days
+	 *  				each year has 360 days
 	 * 
 	 * 
 	 * NOTES OF ANNUITY PAYMENT FORMULA:
-	 * 		duration is n (and varies based on the number of months left of repayment)
-	 * 		nominalInterestRate is r
-	 * 		totalLoanAmount is PV
+	 * 				duration is n (and varies based on the number of months left of repayment)
+	 * 				nominalInterestRate is r
+	 * 				totalLoanAmount is PV
 	 * 
 	 * 
 	 * Author: Zev Yirmiyahu
