@@ -1,6 +1,6 @@
 title: Annuity Loan Repayment Planner
 logo: /assets/img/money.jpeg
-description: Creates CSV file of Annuity loan repayment plan
+description: Creates a CSV file of an annuity loan repayment plan
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
