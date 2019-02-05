@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Annuity Loan Repayment Planner
 
-You can use the [editor on GitHub](https://github.com/zevyirmiyahu/Loan-Repayment-Planner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### About
+This is a simple program that will create a CSV file AND print to the console a monthly repayment plan for annuity loan. The user simply need to alter the parameters in the App class. The program takes four parameters: duration (number of instalments in months), nominal interest rate, total loan amount('total principle amount) and date of disbursement/payout. View the source code here: [source code](https://github.com/zevyirmiyahu/Loan-Repayment-Planner/tree/master/repayment-loan-planner/src/main/java/com/zevyirmiyahu)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Key Features of Game
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Uses the annuity repayment formula
+2. creates CSV file of repayment plan
+3. plan consists of: Date, Annuity, Principal, Interest, Initial outstanding principal and remaining outstanding principal
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Technical features of the Project
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zevyirmiyahu/Loan-Repayment-Planner/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-use annuity repayment formula translated to java code
+-calculate annuity, interest and princpal
+-uses arraylists and methods for storing outputs
+-increments the date for each repayment
